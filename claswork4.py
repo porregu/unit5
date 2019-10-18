@@ -1,12 +1,18 @@
 import random
+es=0
+os=0
+for x in range(10):
+    d=((int)(random.randint(1,100)))
+    print(d)
+    m = d%2
+    if m==0:
+        es=es+d
+    if m!=0:
+        os=os+d
 
-d=random.randint(1,100)
-print(d)
+print("this is the sum of the even numbers",es)
+print("this is the sum of the odd numbers",os)
 
-for x in range(0,d,2):
-    print(x)
-for i in range(1,d,2):
-    print(i)
 
-print(x+i)
+
 
