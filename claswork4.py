@@ -9,7 +9,6 @@ for x in range(10):
         es=es+d
     if m!=0:
         os=os+d
-
 print("this is the sum of the even numbers",es)
 print("this is the sum of the odd numbers",os)
 

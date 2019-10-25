@@ -3,9 +3,7 @@ while user_number!=1:
     print(user_number)
     if user_number%2==0:
         user_number/=2
-        print(user_number*2,"/ 2 =",user_number)
+        print("new number = ",user_number)# print the new number
     else:
         user_number=user_number*3+1
-        print(user_number/3-1,"*3+1 = ",user_number)
-
-
+        print("new number = ",user_number)
